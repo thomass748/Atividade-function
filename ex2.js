@@ -1,4 +1,5 @@
-function apresentarUsuario(nome) {
-    console.log("Olá, " + nome + "! Bem-vindo(a)!");
+function potencia(base, expoente) {
+    base ** expoente;
 }
-apresentarUsuario("Pedro");
+
+let resultado = potencia(2, 3);

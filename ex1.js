@@ -1,3 +1,5 @@
-function boasVindas() {
-    console.log("Bem-vindo(a) ao sistema!");
+function dividir(a, b) {
+    return a / b;
 }
+
+dividir(20, 4);

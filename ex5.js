@@ -1,4 +1,5 @@
-function subtrair(a, b) {
-    return a - b;
+function calcularPerimetro(largura, altura) {
+    let perimetro = 2 * (largura + altura);
+    return perimetro;
 }
-subtrair(10, 5);
+calcularPerimetro(8, 5);

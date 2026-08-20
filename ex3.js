@@ -1,6 +1,5 @@
-function metade (numero) {
-    return numero / 2;
+function calcularMedia(a, b, c) {
+    return (a + b + c) / 3;
 }
 
-let resultado = metade(20);
-console.log(`Resultado: ${resultado}`);
+let resultado = calcularMedia(7, 8, 9);
